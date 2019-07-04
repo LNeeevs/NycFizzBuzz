@@ -19,4 +19,8 @@ describe('FizzBuzz Prototype', () => {
     expect(FizzBuzz(0)).to.be.equal(0);
   });
 
+  it('Should...', () => {
+    expect(FizzBuzz(7)).to.be.equal(7);
+  });
+
 });

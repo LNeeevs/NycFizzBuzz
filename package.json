@@ -10,6 +10,10 @@
     "test": "./node_modules/.bin/mocha tests/**/*.spec.js --require babel-register",
     "nyc": "nyc npm test"
   },
+  "nyc": {
+    "reporter": ["text", "html"],
+    "exclude": ["tests/**"]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LNeeevs/NycFizzBuzz.git"
